@@ -1,0 +1,26 @@
+{
+    "name": "bkd27/trait-generator",
+    "description": "Laravel Trait Generator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bharat Dhaker",
+            "email": "bharatkumardhaker@gmail.com"
+        }
+    ],
+    "require": {
+     "php": "^7.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Bkd27\\TraitGenerator": "src/"
+        }
+    },
+    "extra": {
+    	"laravel": {
+            "providers": [
+                "Bkd27\\TraitGenerator\\ServiceProvider"
+            ]
+        }
+    }
+}
