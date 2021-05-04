@@ -3,10 +3,7 @@ Laravel Generator For Creating New Traits
 
 ## Installation
 
-Install using composer
-```
-composer require bkd27/trait-generator --dev
-```
+Install using https://getcomposer.org/doc/05-repositories.md#vcs
 
 Service auto-discovered if laravel ^5.5 else Add the service provider, open `config/app.php`, and add a new item to the providers array.
 
